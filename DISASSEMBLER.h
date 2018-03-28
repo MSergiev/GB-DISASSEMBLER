@@ -49,7 +49,7 @@ public:
             if( isExt ) {
                 len = EXT_INST_LEN;
                 file.seekg( instNum+1 );
-                file.read( val, len );
+                file.read( &val[1], len );
                 if( file.eof() ) break;
                 std::cout << std::setw(13) << std::setfill(' ') << EXT_INST[CI];
                 instNum+=EXT_INST_LEN;
