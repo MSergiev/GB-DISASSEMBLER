@@ -507,7 +507,7 @@ static const std::string INST_CMNT[] = {
     "Load A from address pointed to by (FF00h + 8-bit immediate)",                  //0xF0
     "Pop 16-bit value from stack into AF",                                          //0xF1
     "Operation removed in this CPU",                                                //0xF2
-    "DIsable interrupts",                                                           //0xF3
+    "Disable interrupts",                                                           //0xF3
     "Operation removed in this CPU",                                                //0xF4
     "Push 16-bit AF onto stack",                                                    //0xF5
     "Logical OR 8-bit immediate against A",                                         //0xF6
